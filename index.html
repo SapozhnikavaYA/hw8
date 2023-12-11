@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        <form id="buyer">
+          <h3 class="title">Данные получателя</h3>
+          <div class="name">
+            <input type="text" id="name__second-name" placeholder="Фамилия" />
+            <input type="text" id="name__first-name" placeholder="Имя" />
+            <input type="text" id="name__father-name" placeholder="Отчество" />
+          </div>
+          <div class="phone">
+            <input
+              type="number"
+              id="phone__number"
+              placeholder="Номер телефона"
+            />
+            <h6 class="phone__description">
+              По этому номеру телефона мы с вяжемся с вами для подтверждения
+              заказа
+            </h6>
+          </div>
+          <div class="mail">
+            <input type="email" id="email" placeholder="E-mail" />
+            <h6 class="mail__description">
+              На эту почту вам придет письмо с составом заказа, а так же
+              трэк-номер для его отслеживания
+            </h6>
+          </div>
+          <div class="square">
+            <p>
+              <input type="checkbox" value="checkbox" checked />Подписаться на
+              рассылку новинок и акций
+            </p>
+          </div>
+          <div class="payment">
+            <h3 class="radio">Способ оплаты</h3>
+            <div class="payment___cash">
+              <input type="radio" id="cash" />
+              <label for="cash"
+                >Оплата при получении наличными или картой</label
+              >
+            </div>
+            <div class="payment__card">
+              <input type="radio" id="card" checked />
+              <label for="card">Оплата банковской картой онлайн</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
